@@ -122,7 +122,35 @@ a{
     flex-direction:column;
     justify-content:flex-end;
     padding:50px;
+
     
+}
+/* boys section */
+.boy-section{
+    width:100%;
+    height:100vh;
+    background-image:url(assets/images/)
+}
+.home-img2{
+    width:100%;
+    height:100vh;
+
+}
+.home-left{
+width:100%;
+height:50%;
+background-color:aquamarine;
+background-image:url(assets/images/pexels-anush-1431282\ \(1\).jpg);
+background-size:cover;
+background-position:center;
+}
+.home-right{
+width:100%;
+height:50%;
+background-color:brown;
+}
+.boy-imgheading{
+    display:none;
 }
 
 
@@ -247,16 +275,96 @@ a{
     background-image:url(assets/images/boy\ girl\ img.jpg);
     background-size:cover;
     background-position:center;
-     background-position:center;
     display:flex;
     flex-direction:row;
     align-items:center;
     justify-content:flex-start;
     padding-left:50px;
 }
+
 .banner-text{
     width:500px;
 }
+/* boys section */
+.boy-section{
+    width:100%;
+    height:100vh;
+    background-image:url(assets/images/pexels-victorfreitas-2261485.jpg);
+    background-size:cover;
+    background-position:cover;
+    
+}
+.home-img2{
+    width:100%;
+    height:100vh;
+    background-color:white;
+    display:flex;
+
+}
+.home-left{
+    width:50%;
+    height:100vh;
+    background-color:black;
+
+}
+.home-left-up{
+   width:100%;
+   height:50%;
+   border:5px  solid  white;
+   background-color:brown;
+   background-image:url(assets/images/man-training-gym_23-2148024357.jpg);
+   background-size:cover;
+   background-position:center;
+    
+}
+.home-left-up:hover{
+    opacity:0.5;
+    
+}
+.home-left-down{
+   width:100%;
+   height:50%;
+   border:5px solid white;
+   background-image:url(assets/images/ind\ man.jpg);
+   background-size:cover;
+   background-position:center;
+
+}
+.home-left-down:hover{
+    opacity:0.5;
+    
+}
+.home-right{
+    width:50%;
+    height:100vh;
+    background-color:black;
+    
+}
+.home-right-up{
+    width:100%;
+    height:50%;
+    border:5px  solid  white;
+     background-image:url(assets/images/side-view-male-exercise-bicycle_23-2148353067.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.home-right-up:hover{
+    opacity:0.5;
+    
+}
+.home-right-down{
+    width:100%;
+    height:50%;
+    border:5px  solid  white;
+    background-image:url(assets/images/boyworkout.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.home-right-down:hover{
+    opacity:0.5;
+}
+
+
 /*  contact page work*/
 
 .contact-page{
