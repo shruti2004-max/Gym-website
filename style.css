@@ -11,7 +11,9 @@ body{
 .main-cont{
     width:100%;
     height:100vh;
-    background-color:black;   
+    background-image:url(assets/images/pexels-airamdphoto-13106607.jpg); 
+    background-size:cover;
+    background-position:center;
 }
 
 .box1{
@@ -310,6 +312,8 @@ a{
     width:100%;
     height:100vh;
     background-color:white;
+    display:flex;
+    flex-direction:column;
     
     
 
@@ -390,6 +394,96 @@ a{
 .girl-home-right-down:hover{
     opacity:0.5;
 }
+/*BEFORE AFTER IMAGES GIRLS*/
+.ba-women{
+    width:100%;
+    
+     display:flex;
+    flex-direction:column;
+    
+}
+.bef-aft{
+    color:white;
+    background-color:black;
+    padding:20px;
+    text-align:center;
+    position:relative;
+    z-index:2;
+    text-shadow:4px 4px   2px rgb(106, 102, 102);
+}
+.bef-aft:hover{
+    text-decoration:none;
+    color:peachpuff;
+}
+
+.ba-main{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+
+
+}
+.ba-left{
+    width:100%;
+    height:100%;
+
+
+    
+    
+}
+.ba-left-up{
+    width:100%;
+    height:50%;
+    background-image:url(assets/images/befgirl1.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+.ba-left-up:hover{
+    opacity:0.5;
+}
+
+.ba-left-down{
+    width:100%;
+    height:50%;
+     background-image:url(assets/images/befgirl2.webp);
+    background-size:cover;
+    background-position:center;
+    
+}
+.ba-left-down:hover{
+    opacity:0.5;
+}
+.ba-right{
+    width:100%;
+    height:100%;
+    background-color:black;
+}
+.ba-right-up{
+    width:100%;
+    height:50%;
+     background-image:url(assets/images/chatbfg2.webp);
+    background-size:cover;
+    background-position:center;
+
+}
+.ba-right-up:hover{
+    opacity:0.5;
+}
+.ba-right-down{
+    width:100%;
+    height:50%;
+     background-image:url(assets/images/chatbfg1.webp);
+    background-size:cover;
+    background-position:center;
+    
+}
+.ba-right-down:hover{
+    opacity:0.5;
+}
+
+
 
 
 
@@ -663,6 +757,7 @@ a{
     height:100vh;
     background-color:white;
     display:flex;
+    flex-direction:row;
 
 }
 .girl-home-left{
@@ -727,6 +822,87 @@ a{
 .girl-home-right-down:hover{
     opacity:0.5;
 }
+/*BEFORE AFTER */
+.bef-aft{
+    background-color:black;
+    padding:30px;
+    text-decoration:underline;
+    color:white;
+    font-style:bold;
+    display:flex;
+    justify-content:center;
+    text-shadow: 4px 4px 2px rgb(138, 131, 131);
+
+}
+
+/* BEFORE AFTER IMAGES GIRLS*/
+.bef-aft:hover{
+    text-decoration:none;
+    color:peachpuff;
+}
+
+.ba-main{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+}
+.ba-left{
+    width:50%;
+    height:100%;
+    background-color:black;
+    
+}
+.ba-left-up{
+    width:100%;
+    height:50%;
+    background-image:url(assets/images/befgirl1.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+.ba-left-up:hover{
+    opacity:0.5;
+}
+
+.ba-left-down{
+    width:100%;
+    height:50%;
+     background-image:url(assets/images/befgirl2.webp);
+    background-size:cover;
+    background-position:center;
+    
+}
+.ba-left-down:hover{
+    opacity:0.5;
+}
+.ba-right{
+    width:50%;
+    height:100%;
+    background-color:black;
+}
+.ba-right-up{
+    width:100%;
+    height:50%;
+     background-image:url(assets/images/chatbfg2.webp);
+    background-size:cover;
+    background-position:center;
+
+}
+.ba-right-up:hover{
+    opacity:0.5;
+}
+.ba-right-down{
+    width:100%;
+    height:50%;
+     background-image:url(assets/images/chatbfg1.webp);
+    background-size:cover;
+    background-position:center;
+    
+}
+.ba-right-down:hover{
+    opacity:0.5;
+} 
 
 /*  contact page work*/
 
