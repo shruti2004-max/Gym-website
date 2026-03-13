@@ -147,7 +147,11 @@ a{
     background-position:center;
     justify-content:center;
     align-items:center;
+
+
+
 }
+
 .girl{
       width:300px;
       height:200px;
@@ -155,10 +159,12 @@ a{
       background-color:rgba(0, 0, 0, 0.274);
       box-shadow: 10px 10px 10px 10px black;
       border-radius:20px;
+      transition:0.3s;
       
 }
 .girl:hover{
     background-color:black;
+     transform:translateY(-10px);
 }
 
 .girl-btn{
@@ -180,7 +186,6 @@ a{
     background-image:url(assets/images/pexels-bemistermister-3490348.jpg);
     background-size:cover;
     background-position:center;
-  
     justify-content:center;
     align-items:center;
     
@@ -251,21 +256,22 @@ a{
 
 }
 /*choose section*/
-ch-main{
+.card-cont{
     width:100%;
     background-color:black;
-    color:white;
-    
+  
+}
+.card{
+    border-radius:20px;
+    box-shadow: 0 10px 10px 10px rgb(79, 78, 78);
+    transition:0.3s;
    
 }
-.ch-heading{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-decoration:underline;
-    text-shadow:4px 4px 2px rgb(139, 138, 138);
+.card:hover{
+     transform:translateY(-10px);
 }
 
+.
 /* contact page */
 .contact-page{
     width:100%;
@@ -295,9 +301,11 @@ ch-main{
      background-color:rgba(0, 0, 0, 0.24);
      box-shadow:10px 10px 10px 10px black;
      border-radius:20px;
+     transition:o.3s;
 }
 .boy-box:hover{
     background-color:black;
+    transform:translateY(-10px);
 }
 
 
@@ -476,9 +484,12 @@ ch-main{
      background-color:rgba(0, 0, 0, 0.24);
      box-shadow:10px 10px 10px 10px black;
      border-radius:20px;
+     transition:0.3s;
+
 }
 .girl-box:hover{
     background-color:black;
+    transform:translateY(-10px);
 }
 .girl-home-img2{
     width:100%;
@@ -807,6 +818,7 @@ a{
 }
 
 
+
 /* GIRL AND BOY HOME PAGE LAYOUT*/
 
 
@@ -942,6 +954,12 @@ a{
     justify-content:center;
     text-shadow: 4px 4px 2px rgb(138, 131, 131);
 
+}
+/* choose section */
+.card-cont{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
 }
 
 /* BEFORE AFTER IMAGES boys*/
@@ -1254,7 +1272,6 @@ a{
    text-decoration:none;
    color:white;
 }
-
 
 
 
