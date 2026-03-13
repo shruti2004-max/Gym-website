@@ -259,7 +259,7 @@ a{
 .card-cont{
     width:100%;
     background-color:black;
-  
+  justify-content:center;
 }
 .card{
     border-radius:20px;
@@ -661,6 +661,99 @@ a{
     opacity:0.5;
 }
 
+
+/* ABOUT PAGE */
+.about-main{
+    width:100%;
+    background-color:black;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    
+}
+.about-cont{
+    width:100%;
+   min-height:500px;
+    background-color:rgba(0, 0, 0,);
+    padding:20px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    gap:20px;  
+}
+.about-img{
+  min-width:300px;
+  height:400px;
+   flex:1;
+    
+   background-image:url(assets/images/a\ gym\ ext.png);
+   background-size:cover;
+   background-position:center;
+   border:2px solid rgb(110, 106, 106);
+   transition:0.3s;
+     
+}
+
+.about-img:hover{
+ transform:translateY(-10px);
+}
+
+.about-img1{
+   min-width:300px;
+  height:400px;
+    flex:1;
+   background-image:url(assets/images/Aowner-work_946657-2806.jpg);
+   background-size:cover;
+   background-position:center;
+    border:2px solid rgb(110, 106, 106);
+       transition:0.3s;
+}
+
+.about-img1:hover{
+ transform:translateY(-10px);
+}
+.about-img2{
+   min-width:300px;
+  height:400px;
+    flex:1;
+   background-image:url(assets/images/people-training-athletics_23-2151077733.jpg);
+   background-size:cover;
+   background-position:center;
+    border:2px solid rgb(110, 106, 106);
+       transition:0.3s;
+}
+.about-img2:hover{
+ transform:translateY(-10px);
+}
+.about-img3{
+  min-width:300px;
+  height:400px;
+   flex:1;
+   background-image:url(assetS/images/pexels-olly-3776144.jpg);
+   background-size:cover;
+   background-position:center;
+    border:2px solid rgb(110, 106, 106);
+       transition:0.3s;
+}
+.about-img3:hover{
+ transform:translateY(-10px);
+}
+
+.about-text{
+    width:100%;
+    flex:1;
+    color:white;
+    padding:50px;
+    background-color:rgba(0, 0, 0, 0.544);
+    text-align:center;
+    transition:0.3s;
+    
+}
+.about-text:hover{
+ transform:translateY(-10px);
+}
+
 /*FOOTER*/
 .footer{
     width:100%;
@@ -959,8 +1052,12 @@ a{
 .card-cont{
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-around;
+   /* justify-content:space-between;*/
 }
+.card{
+    margin:40px;
+}
+
 
 /* BEFORE AFTER IMAGES boys*/
 .bef-aft-men:hover{
@@ -1206,6 +1303,13 @@ a{
 .ba-right-down:hover{
     opacity:0.5;
 } 
+
+/*ABOUT PAGE*/
+.about-cont{
+    display:flex;
+    line-height:1.7;
+}
+
 
 /*  contact page work*/
 
