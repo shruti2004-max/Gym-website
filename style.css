@@ -785,8 +785,170 @@ a{
 .about-text:hover{
  transform:translateY(-10px);
 }
+/*  SEVICES  PAGE  */
 
-/*FOOTER*/
+
+.service-cont{
+    width:100%;
+    background-color:black;
+    display:flex;
+    flex-direction:column;
+
+    
+    
+}
+.service-main{
+    width:100%;
+   min-height:500px;
+    background-color:rgba(0, 0, 0,);
+    padding:20px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    gap:20px; 
+     
+}
+.service-img{
+  min-width:300px;
+  height:400px;
+   flex:1;
+   background-image:url(assets/images/personalised\ training.jpg);
+   background-size:cover;
+   background-position:center;
+   border:2px solid rgb(110, 106, 106);
+   border-radius:20px;
+   animation:serviceanimimg 3s ease 0.5s forwards; 
+   
+     
+}
+
+.service-img1{
+  min-width:300px;
+  height:400px;
+   flex:1;
+   background-image:url(assets/images/aayogapic.jpg);
+   background-size:cover;
+   background-position:center;
+   border:2px solid rgb(110, 106, 106);
+     border-radius:20px;
+   animation:serviceanimimg 3s ease 0.5s forwards; 
+      
+}
+
+.service-img2{
+  min-width:300px;
+  height:400px;
+   flex:1;
+   background-image:url(assets/images/aa\ diet.jpg);
+   background-size:cover;
+   background-position:center;
+   border:2px solid rgb(110, 106, 106);
+     border-radius:20px;
+   animation:serviceanimimg 3s ease 0.5s forwards; 
+      
+}
+.service-img3{
+  min-width:300px;
+  height:400px;
+   flex:1;
+   background-image:url(assets/images/strength.jpg);
+   background-size:cover;
+   background-position:center;
+   border:2px solid rgb(110, 106, 106);
+     border-radius:20px;
+   animation:serviceanimimg 3s ease 0.5s forwards; 
+      
+}
+.service-img4{
+  min-width:300px;
+  height:400px;
+   flex:1;
+   background-image:url(assets/images/cardio.jpg);
+   background-size:cover;
+   background-position:center;
+   border:2px solid rgb(110, 106, 106);
+     border-radius:20px;
+   animation:serviceanimimg 3s ease 0.5s forwards; 
+      
+}
+.service-img5{
+  min-width:300px;
+  height:400px;
+   flex:1;
+   background-image:url(assetS/images/changing.jpg);
+   background-size:cover;
+   background-position:center;
+   border:2px solid rgb(110, 106, 106);
+     border-radius:20px;
+   animation:serviceanimimg 3s ease 0.5s forwards; 
+      
+}
+.service-img6{
+  min-width:300px;
+  height:400px;
+   flex:1;
+   background-image:url(assetS/images/weightloss.jpg);
+   background-size:cover;
+   background-position:center;
+   border:2px solid rgb(110, 106, 106);
+     border-radius:20px;
+   animation:serviceanimimg 3s ease 0.5s forwards; 
+      
+}
+.service-img7{
+  min-width:300px;
+  height:400px;
+   flex:1;
+   background-image:url(assets/images/musclegain.jpg);
+   background-size:cover;
+   background-position:center;
+   border:2px solid rgb(110, 106, 106);
+     border-radius:20px;
+   animation:serviceanimimg 3s ease 0.5s forwards; 
+      
+}
+
+
+
+.service-text{
+    width:100%;
+    flex:1;
+    color:white;
+    padding:50px;
+    background-color:rgba(0, 0, 0, 0.5);
+    text-align:center;
+    transition:0.3s;
+    animation:serviceanimtext 3s ease 0.5s forwards;
+      border-radius:20px;
+}
+
+@keyframes serviceanimimg{
+    from{
+        transform:translateX(-500px);
+        
+    }
+    to{
+        transform:translate(0);
+           
+    }
+}
+@keyframes serviceanimtext{
+    from{
+        transform:translateX(500px);
+           
+    }
+    to{
+        transform:translate(0);
+           
+    }
+}
+
+
+
+
+  
+/*   FOOTER   */
 .footer{
     width:100%;
     background-color:black;
@@ -833,7 +995,7 @@ a{
     padding:20px;
     border:2px solid rgb(10 , 10, 10,);
     background-color:rgba(0, 0, 0, 0.266);
-    MARGIN:10px;
+    margin:10px;
     animation:leftAnim 3s ease 0.5s forwards;
     border-radius:20px;
     color:white;
@@ -854,6 +1016,7 @@ text-shadow:4px 4px 2px rgb(147, 141, 141);
     border-radius:20px;
     color:white; 
     flex:wrap;
+
 }
 /*  animation part */
 @keyframes leftAnim{
