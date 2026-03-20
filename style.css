@@ -6,6 +6,7 @@
 }
 body{
     overflow-x:hidden;
+    
 }
 /* main container of front page of index.html file */
 .main-cont{
@@ -791,7 +792,7 @@ a{
 
 .service-cont{
     width:100%;
-    background-color:black;
+    background-color:peachpuff;
     display:flex;
     flex-direction:column;
 
@@ -801,13 +802,14 @@ a{
 .service-main{
     width:100%;
    min-height:500px;
-    background-color:rgba(0, 0, 0,);
+    background-color:black;
     padding:20px;
     display:flex;
     flex-wrap:wrap;
     align-items:center;
     justify-content:center;
     gap:20px; 
+    border-radius:100px;
      
 }
 .service-img{
@@ -818,7 +820,7 @@ a{
    background-size:cover;
    background-position:center;
    border:2px solid rgb(110, 106, 106);
-   border-radius:20px;
+   border-radius:50px;
    animation:serviceanimimg 3s ease 0.5s forwards; 
    
      
@@ -832,7 +834,7 @@ a{
    background-size:cover;
    background-position:center;
    border:2px solid rgb(110, 106, 106);
-     border-radius:20px;
+     border-radius:50px;
    animation:serviceanimimg 3s ease 0.5s forwards; 
       
 }
@@ -845,7 +847,7 @@ a{
    background-size:cover;
    background-position:center;
    border:2px solid rgb(110, 106, 106);
-     border-radius:20px;
+     border-radius:50px;
    animation:serviceanimimg 3s ease 0.5s forwards; 
       
 }
@@ -857,7 +859,7 @@ a{
    background-size:cover;
    background-position:center;
    border:2px solid rgb(110, 106, 106);
-     border-radius:20px;
+     border-radius:50px;
    animation:serviceanimimg 3s ease 0.5s forwards; 
       
 }
@@ -869,7 +871,7 @@ a{
    background-size:cover;
    background-position:center;
    border:2px solid rgb(110, 106, 106);
-     border-radius:20px;
+     border-radius:50px;
    animation:serviceanimimg 3s ease 0.5s forwards; 
       
 }
@@ -881,7 +883,7 @@ a{
    background-size:cover;
    background-position:center;
    border:2px solid rgb(110, 106, 106);
-     border-radius:20px;
+     border-radius:50px;
    animation:serviceanimimg 3s ease 0.5s forwards; 
       
 }
@@ -893,7 +895,7 @@ a{
    background-size:cover;
    background-position:center;
    border:2px solid rgb(110, 106, 106);
-     border-radius:20px;
+     border-radius:50px;
    animation:serviceanimimg 3s ease 0.5s forwards; 
       
 }
@@ -905,7 +907,7 @@ a{
    background-size:cover;
    background-position:center;
    border:2px solid rgb(110, 106, 106);
-     border-radius:20px;
+     border-radius:50px;
    animation:serviceanimimg 3s ease 0.5s forwards; 
       
 }
@@ -915,13 +917,13 @@ a{
 .service-text{
     width:100%;
     flex:1;
-    color:white;
+    color:black;
     padding:50px;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:peachpuff;
     text-align:center;
     transition:0.3s;
     animation:serviceanimtext 3s ease 0.5s forwards;
-      border-radius:20px;
+      border-radius:50px;
 }
 
 @keyframes serviceanimimg{
@@ -956,6 +958,7 @@ a{
     padding:20px;
     display:flex;
     flex-direction:column;
+    
 }
 .footer-container{
     display:flex;
