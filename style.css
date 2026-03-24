@@ -52,10 +52,11 @@ of home page this is a content of home.html file*/
 .main-home{
     width:100%;
     background-color:rgb(13, 13, 13);
+   
 }
 .nav-bar{
     width:100%;   
-      
+  
 }
 .logo{
     display:flex;
@@ -65,8 +66,9 @@ of home page this is a content of home.html file*/
 }
 
 nav{
-    width:100%;
+   width:100%;
    background-color:rgb(13, 13, 13);
+     
    
 }
 
@@ -908,7 +910,7 @@ a{
    background-position:center;
    border:2px solid rgb(110, 106, 106);
      border-radius:50px;
-   animation:serviceanimimg 3s ease 0.5s forwards; 
+   
       
 }
 
@@ -922,31 +924,184 @@ a{
     background-color:peachpuff;
     text-align:center;
     transition:0.3s;
-    animation:serviceanimtext 3s ease 0.5s forwards;
       border-radius:50px;
 }
 
-@keyframes serviceanimimg{
-    from{
-        transform:translateX(-500px);
-        
-    }
-    to{
-        transform:translate(0);
-           
-    }
+/*GALLERY PAGE DESIGN*/
+.gallery-main{
+    width:100%;
+    background-color:black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   
 }
-@keyframes serviceanimtext{
-    from{
-        transform:translateX(500px);
-           
-    }
-    to{
-        transform:translate(0);
-           
-    }
+.gallery-cont{
+    width:100%;
+    height:auto;
+    margin-top:0;
+    background-color:black;
+}
+.gallery-img1{
+    width:100%;
+    height:450px;
+    background-image:url(assets/images/award.jpg);
+    border-radius:50% 50% 0 0 ;
+     background-color:rgb(93, 93, 214);
+       background-size:cover;
+       background-position:center;
+       display:flex;
+       justify-content:center;
+       align-items:center;
+          border:3px solid rgb(234, 178, 128);
+    
+}
+.gallery-img2{
+    width:100%;
+      height:450px;
+      background-image:url(assets/images/gym-interior-with-equipment_93675-128388.jpg);  
+         border-radius:50% 50% 0 0 ;
+     background-color:rgb(93, 214, 101);
+      background-size:cover;
+       background-position:center;
+        display:flex;
+       justify-content:center;
+       align-items:center;
+     border:3px solid rgb(234, 178, 128);
+         
+}
+.gallery-img3{
+    width:100%;
+      height:450px;
+     background-image:url(assets/images/aaa\ group\ yoga.png);
+     border-radius:50% 50% 0 0 ;
+     background-color:rgb(201, 97, 27);
+      background-size:cover;
+       background-position:center;
+        display:flex;
+       justify-content:center;
+       align-items:center;
+     border:3px solid rgb(234, 178, 128);
+       
 }
 
+
+.gallery-heading{
+    color:white;
+    border-radius:10px;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.395);
+}
+.gallery-heading:hover{
+     background-color:rgba(0, 0, 0, 0.553);
+}
+
+/*GALLERY LAYOUT */
+
+.gallery-layout{
+    width:100%;
+   height:auto;
+   background-color:black;
+
+}
+.gallery-layout1{
+    width:100%;
+    height:250px;
+    background-image:url(assets/png/gym\ certificate.png);
+    background-position:center;
+    background-size:cover;
+    border:3px solid rgb(224, 154, 93);
+}
+.gallery-layout2{
+    width:100%;
+    height:250px;
+    background-image:url(assets/png/award\ gym.png);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-layout3{
+    width:100%;
+    height:250px;
+    background-image:url(assets/png/award\ gym1.png);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+
+.gallery-layout4{
+    width:100%;
+    height:250px;
+    background-image:url(assets/images/award1.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-interior1{
+       width:100%;
+    height:250px;
+    background-image:url(assets/images/a1\ interior.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-interior2{
+       width:100%;
+    height:250px;
+    background-image:url(assets/images/a2\ interior.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-interior3{
+       width:100%;
+    height:250px;
+    background-image:url(assets/images/a3\ interior.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-interior4{
+       width:100%;
+    height:250px;
+    background-image:url(assets/images/a4\ interior.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-interior5{
+       width:100%;
+    height:250px;
+    background-image:url(assets/images/a5\ interior.webp);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-interior6{
+       width:100%;
+    height:250px;
+    background-image:url(assets/images/a6\ interior.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-interior7{
+       width:100%;
+    height:250px;
+    background-image:url(assets/images/a7\ interior.avif);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-interior8{
+       width:100%;
+    height:250px;
+    background-image:url(assets/images/a8\ interior.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+      
+}
 
 
   
@@ -1060,11 +1215,12 @@ text-shadow:4px 4px 2px rgb(147, 141, 141);
 .home-main{
     background-color:rgb(13, 13, 13);
     width:100%;
+    margin-top:0;
     
 }
 .nav-bar{
     width:100%;   
-    
+     margin-top:0;
 }
 
 nav{
@@ -1074,6 +1230,7 @@ nav{
     align-items:center;
     position:fixed; 
     background-color:transparent;
+      margin-top:0;
 }
 ul{
     list-style:none; 
@@ -1102,6 +1259,7 @@ a{
     align-items:center;
     justify-content:flex-start;
     padding-left:50px;
+    
 }
 
 .banner-text{
@@ -1529,6 +1687,25 @@ a{
     padding-right:150px;
     gap:15px;
 }
+
+/* GALLERY PAGE */
+.gallery-cont{
+ display:flex;
+ flex-direction:row;
+ 
+ gap:20px;
+
+}
+/* GALLERY LAYOUT */
+
+.gallery-layout{
+    display:flex;
+    
+}
+.gallery-text{
+    width:100%;
+}
+ 
 
 /*FOOTER*/
 
