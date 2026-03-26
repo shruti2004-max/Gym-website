@@ -1102,7 +1102,96 @@ a{
       border:3px solid rgb(224, 154, 93);
       
 }
+.gallery-grp1{
+    width:100%;
+    height:250px;
+    background-image:url(assets/images/grp1.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-grp2{
+    width:100%;
+    height:250px;
+    background-image:url(assets/images/grp2.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-grp3{
+    width:100%;
+    height:250px;
+    background-image:url(assets/images/grp3.avif);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-grp4{
+    width:100%;
+    height:250px;
+    background-image:url(assets/images/grp4.avif);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-grp5{
+    width:100%;
+    height:250px;
+    background-image:url(assets/images/grp5.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-grp6{
+    width:100%;
+    height:250px;
+    background-image:url(assets/images/grp6.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-grp7{
+    width:100%;
+    height:250px;
+    background-image:url(assets/images/grp7.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
+.gallery-grp8{
+    width:100%;
+    height:250px;
+    background-image:url(assets/images/grp9.jpg);
+    background-position:center;
+    background-size:cover;
+      border:3px solid rgb(224, 154, 93);
+}
 
+
+/* MEMBERSHIP PAGE*/
+
+.membership-cont{
+    width:100%;
+    height:auto;
+    background-color:black;
+}
+.membership-main{
+    width:100%;
+    height:auto;
+    background-image:url(assets/images/A1background.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+.membership-basic{
+    width:100%;
+    height:auto;
+    background-color:grey;
+}
+.basic-left{
+    width:50%;
+    background-color:rgba(0, 0, 0, 0.249);
+}
 
   
 /*   FOOTER   */
