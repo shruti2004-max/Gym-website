@@ -132,6 +132,21 @@ a{
 .banner-text ol li:hover{
     background: transparent !important;
 }
+
+/* trust building */
+.home-number{
+    width:100%;
+    background-color:black;
+    color:white;
+
+    
+}
+.number{
+    width:100%;
+    padding:20px;
+    
+
+}
 /* GIRL AND BOY HOME PAGE LAYOUT*/
 
 
@@ -1168,45 +1183,7 @@ a{
 }
 
 
-/* MEMBERSHIP PAGE*/
-/**
-.membership-main{
-    width:100%;
-    height:100vh;
-    background-image:url(assets/images/A0member.jpg);
-    background-size:cover;
-    background-position:center;
-    position:relative;
-      
-
- 
-}
-.membership-text-cont{
-  position:absolute;
-  top:25%;
-  left:8%;
-  transform:translateY(-50%);
-
-}
-.membership-card{
-    width:100%;
-    height:auto;
-    color:white;
-  
-}
-.membership-card1{
-     width:100%;
-     position:absolute;
-     top:70%;
-     transform:translateY(-50%);
-     height:auto;
-     padding:25px;
-    background-color:rgba(185, 199, 220, 0.573);
-    border-radius:20px;
-    
-
-
-}*/
+    /*MEMBERSHIP PAGE*/
 .membership-main{
     width:100%;
     
@@ -1274,7 +1251,7 @@ a{
     justify-content:center;
     align-items:center;
     background-color:black;
-    background-image:url(assets/images/scottwebb-training-828726_1920.jpg)
+    background-image:url(assets/images/index\ main.avif);
 }
 
     
@@ -1390,6 +1367,7 @@ a{
     align-items:center;
     justify-content:flex-start;
     padding-left:50px;
+    background-color:black;
     
 }
 
@@ -1397,7 +1375,14 @@ a{
     width:500px;
 }
 
-
+/*TRUST BUILDING */
+.home-number{
+    display:flex;
+    justify-content:space-around;
+}
+.number{
+    margin:40px;
+}
 
 /* GIRL AND BOY HOME PAGE LAYOUT*/
 
@@ -1421,6 +1406,9 @@ a{
 .girl{
     width:400px;
     height:200px;
+}
+.girl:hover{
+    background-color:rgba(26, 25, 25, 0.259);
 }
 .section-right{
     width:50%;
@@ -1636,7 +1624,7 @@ a{
     
 }
 .girl-box:hover{
-    background-color:black;
+      background-color:rgb(81, 73, 73,0.159);
 }
 
 .girl-home-img2{
